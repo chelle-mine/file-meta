@@ -1,0 +1,25 @@
+{
+  "name": "file-meta",
+  "version": "1.0.0",
+  "description": "Upload a file to see its size in bytes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chelle-mine/file-meta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
